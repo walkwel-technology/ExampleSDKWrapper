@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name          = "ExampleSDKWrapper"
-    spec.version       = "1.0.3"
+    spec.version       = "1.0.4"
     spec.summary       = "Pod deployment example"
     spec.description   = "ExampleSDK Wrapper pod deployment example"
     spec.homepage      = "https://github.com/walkwel-technology/ExampleSDKWrapper"
