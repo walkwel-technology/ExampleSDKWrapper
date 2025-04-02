@@ -9,8 +9,23 @@
 /* Begin PBXBuildFile section */
 		3A6B256E2D9D0B7E000579BE /* ExampleSDKWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6B256D2D9D0B7E000579BE /* ExampleSDKWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A6B25772D9D0CC8000579BE /* WrapperEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B25762D9D0CC8000579BE /* WrapperEngine.swift */; };
-		3A6B25A32D9D2060000579BE /* ExampleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6B25A22D9D2060000579BE /* ExampleSDK.xcframework */; };
+		3A6B25A42D9D311B000579BE /* ExampleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6B25A22D9D2060000579BE /* ExampleSDK.xcframework */; };
+		3A6B25A52D9D311B000579BE /* ExampleSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6B25A22D9D2060000579BE /* ExampleSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A6B25A62D9D311B000579BE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A6B25A52D9D311B000579BE /* ExampleSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3A6B256A2D9D0B7E000579BE /* ExampleSDKWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSDKWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6B25A32D9D2060000579BE /* ExampleSDK.xcframework in Frameworks */,
+				3A6B25A42D9D311B000579BE /* ExampleSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,7 @@
 				3A6B25662D9D0B7E000579BE /* Sources */,
 				3A6B25672D9D0B7E000579BE /* Frameworks */,
 				3A6B25682D9D0B7E000579BE /* Resources */,
+				3A6B25A62D9D311B000579BE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
