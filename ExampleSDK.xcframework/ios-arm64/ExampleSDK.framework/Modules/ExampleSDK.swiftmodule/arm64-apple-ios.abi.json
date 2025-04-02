@@ -1,0 +1,113 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ExampleSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Engine",
+        "printedName": "Engine",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "share",
+            "printedName": "share",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Engine",
+                "printedName": "ExampleSDK.Engine",
+                "usr": "s:10ExampleSDK6EngineC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ExampleSDK6EngineC5shareACvpZ",
+            "mangledName": "$s10ExampleSDK6EngineC5shareACvpZ",
+            "moduleName": "ExampleSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Engine",
+                    "printedName": "ExampleSDK.Engine",
+                    "usr": "s:10ExampleSDK6EngineC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ExampleSDK6EngineC5shareACvgZ",
+                "mangledName": "$s10ExampleSDK6EngineC5shareACvgZ",
+                "moduleName": "ExampleSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ExampleSDK6EngineC5startSSyF",
+            "mangledName": "$s10ExampleSDK6EngineC5startSSyF",
+            "moduleName": "ExampleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10ExampleSDK6EngineC",
+        "mangledName": "$s10ExampleSDK6EngineC",
+        "moduleName": "ExampleSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/harsh\/Development\/Projects\/secureprivacy\/03-research\/native\/PodsDeployment\/ExampleSDK\/ExampleSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 46,
+      "length": 5,
+      "value": "\"1.0\""
+    }
+  ]
+}
