@@ -13,24 +13,24 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Engine",
-        "printedName": "Engine",
+        "name": "SDKEngine",
+        "printedName": "SDKEngine",
         "children": [
           {
             "kind": "Var",
-            "name": "share",
-            "printedName": "share",
+            "name": "shared",
+            "printedName": "shared",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Engine",
-                "printedName": "ExampleSDK.Engine",
-                "usr": "s:10ExampleSDK6EngineC"
+                "name": "SDKEngine",
+                "printedName": "ExampleSDK.SDKEngine",
+                "usr": "s:10ExampleSDK9SDKEngineC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10ExampleSDK6EngineC5shareACvpZ",
-            "mangledName": "$s10ExampleSDK6EngineC5shareACvpZ",
+            "usr": "s:10ExampleSDK9SDKEngineC6sharedACvpZ",
+            "mangledName": "$s10ExampleSDK9SDKEngineC6sharedACvpZ",
             "moduleName": "ExampleSDK",
             "static": true,
             "declAttributes": [
@@ -49,14 +49,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Engine",
-                    "printedName": "ExampleSDK.Engine",
-                    "usr": "s:10ExampleSDK6EngineC"
+                    "name": "SDKEngine",
+                    "printedName": "ExampleSDK.SDKEngine",
+                    "usr": "s:10ExampleSDK9SDKEngineC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10ExampleSDK6EngineC5shareACvgZ",
-                "mangledName": "$s10ExampleSDK6EngineC5shareACvgZ",
+                "usr": "s:10ExampleSDK9SDKEngineC6sharedACvgZ",
+                "mangledName": "$s10ExampleSDK9SDKEngineC6sharedACvgZ",
                 "moduleName": "ExampleSDK",
                 "static": true,
                 "implicit": true,
@@ -80,8 +80,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10ExampleSDK6EngineC5startSSyF",
-            "mangledName": "$s10ExampleSDK6EngineC5startSSyF",
+            "usr": "s:10ExampleSDK9SDKEngineC5startSSyF",
+            "mangledName": "$s10ExampleSDK9SDKEngineC5startSSyF",
             "moduleName": "ExampleSDK",
             "declAttributes": [
               "AccessControl"
@@ -90,8 +90,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:10ExampleSDK6EngineC",
-        "mangledName": "$s10ExampleSDK6EngineC",
+        "usr": "s:10ExampleSDK9SDKEngineC",
+        "mangledName": "$s10ExampleSDK9SDKEngineC",
         "moduleName": "ExampleSDK",
         "declAttributes": [
           "AccessControl"

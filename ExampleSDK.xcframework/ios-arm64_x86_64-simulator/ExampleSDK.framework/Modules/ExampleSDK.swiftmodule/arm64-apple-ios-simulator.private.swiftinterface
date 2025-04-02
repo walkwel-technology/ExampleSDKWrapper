@@ -7,8 +7,8 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class Engine {
-  public static let share: ExampleSDK.Engine
+@_hasMissingDesignatedInitializers public class SDKEngine {
+  public static let shared: ExampleSDK.SDKEngine
   public func start() -> Swift.String
   @objc deinit
 }
